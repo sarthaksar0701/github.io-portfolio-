@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarthak Saxena | Student Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;background:#f5f7fb;color:#172033}
+nav{position:sticky;top:0;z-index:10;background:#111827;padding:14px 7%;display:flex;justify-content:space-between;align-items:center}
+nav .logo{color:white;font-size:20px;font-weight:bold}
+nav a{color:#dbeafe;text-decoration:none;margin-left:22px;font-size:14px}
+.hero{min-height:88vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:50px 20px;background:linear-gradient(135deg,#dbeafe,#eef2ff)}
+.hero .box{max-width:850px}
+.hero h1{font-size:clamp(42px,7vw,72px);margin-bottom:10px;color:#111827}
+.hero h2{font-size:24px;color:#2563eb;margin-bottom:20px}
+.hero p{font-size:18px;color:#4b5563;max-width:680px;margin:auto}
+.btn{display:inline-block;margin-top:28px;padding:12px 22px;background:#2563eb;color:white;text-decoration:none;border-radius:10px}
+section{max-width:1050px;margin:auto;padding:70px 25px}
+.title{text-align:center;font-size:34px;margin-bottom:35px}
+.card{background:white;border-radius:18px;padding:28px;box-shadow:0 8px 25px rgba(0,0,0,.06);margin-bottom:20px}
+.about{font-size:17px;color:#4b5563;text-align:center;max-width:800px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.item{text-align:center;background:white;padding:28px;border-radius:18px;box-shadow:0 8px 25px rgba(0,0,0,.06)}
+.icon{font-size:38px;margin-bottom:12px}
+.item h3{margin-bottom:8px}
+.item p{color:#6b7280}
+.skills span{display:inline-block;padding:10px 15px;margin:6px;background:#e0e7ff;color:#3730a3;border-radius:20px}
+.timeline{border-left:3px solid #2563eb;padding-left:22px}
+.timeline .card{position:relative}
+.timeline .card:before{content:"";position:absolute;width:12px;height:12px;border-radius:50%;background:#2563eb;left:-30px;top:32px}
+footer{text-align:center;background:#111827;color:#cbd5e1;padding:30px}
+footer strong{color:white}
+@media(max-width:650px){nav{display:block;text-align:center}nav .logo{display:block;margin-bottom:8px}nav a{margin:0 7px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Sarthak Saxena</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#academics">Academics</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#goals">Goals</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="box">
+    <h1>Sarthak Saxena</h1>
+    <h2>Class 9-A | Student Portfolio</h2>
+    <p>Welcome to my student portfolio! This website is a small introduction to my academic interests, hobbies, strengths, goals and the things I enjoy learning and doing.</p>
+    <a class="btn" href="#about">Explore My Portfolio ↓</a>
+  </div>
+</header>
+
+<section id="about">
+  <h2 class="title">About Me</h2>
+  <div class="card about">
+    I am <strong>Sarthak Saxena</strong>, a student of Class 9-A. I enjoy learning new things and developing myself both academically and personally. My favourite subjects are <strong>Mathematics</strong> and <strong>Science</strong>. I also enjoy sports, fitness, travelling, cooking and listening to songs.
+  </div>
+</section>
+
+<section id="academics">
+  <h2 class="title">My Academics</h2>
+  <div class="grid">
+    <div class="item">
+      <div class="icon">📐</div>
+      <h3>Mathematics</h3>
+      <p>I enjoy logical thinking, problem solving and working with numbers.</p>
+    </div>
+    <div class="item">
+      <div class="icon">🔬</div>
+      <h3>Science</h3>
+      <p>I like understanding how the world works through scientific ideas and experiments.</p>
+    </div>
+  </div>
+</section>
+
+<section id="hobbies">
+  <h2 class="title">My Hobbies & Interests</h2>
+  <div class="grid">
+    <div class="item"><div class="icon">⚽</div><h3>Football</h3><p>I enjoy playing and following football.</p></div>
+    <div class="item"><div class="icon">🏋️</div><h3>Fitness & Weight Lifting</h3><p>I am interested in fitness and strength training.</p></div>
+    <div class="item"><div class="icon">🏆</div><h3>Sports</h3><p>Sports help me stay active and develop teamwork and discipline.</p></div>
+    <div class="item"><div class="icon">✈️</div><h3>Travelling</h3><p>I enjoy exploring new places and experiencing different surroundings.</p></div>
+    <div class="item"><div class="icon">🍳</div><h3>Cooking</h3><p>I like trying recipes and learning new cooking skills.</p></div>
+    <div class="item"><div class="icon">🎵</div><h3>Listening to Songs</h3><p>Music is one of the ways I relax and enjoy my free time.</p></div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="title">My Skills & Qualities</h2>
+  <div class="card skills" style="text-align:center">
+    <span>Problem Solving</span><span>Logical Thinking</span><span>Teamwork</span>
+    <span>Discipline</span><span>Creativity</span><span>Curiosity</span>
+    <span>Time Management</span><span>Learning New Skills</span>
+  </div>
+</section>
+
+<section id="goals">
+  <h2 class="title">My Goals</h2>
+  <div class="timeline">
+    <div class="card"><h3>Academic Goal</h3><p>To strengthen my understanding of Mathematics and Science and maintain consistent performance in all subjects.</p></div>
+    <div class="card"><h3>Personal Goal</h3><p>To become more disciplined, confident and responsible while balancing studies with my interests.</p></div>
+    <div class="card"><h3>Future Goal</h3><p>To keep exploring my interests, learn useful skills and work towards a successful future.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2 class="title">My Personal Statement</h2>
+  <div class="card about">
+    <em>"I believe that learning is not limited to the classroom. Every subject, sport, hobby and experience can teach us something valuable. I want to keep learning, improving and making the most of every opportunity."</em>
+  </div>
+</section>
+
+<footer>
+  <p><strong>Sarthak Saxena</strong> | Class 9-A</p>
+  <p>Student Portfolio • School Year 2026–27</p>
+</footer>
+
+</body>
+</html>
